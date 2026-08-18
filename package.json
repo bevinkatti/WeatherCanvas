@@ -1,0 +1,19 @@
+{
+  "name": "aesthetic-weather",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 5000",
+    "build": "vite build",
+    "serve": "vite preview --port 5000",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "lottie-web": "^5.10.2"
+  }
+}
