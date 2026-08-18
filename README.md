@@ -2,7 +2,7 @@
 
 Transform your Windows desktop into a living, breathing canvas — a lightweight, beautiful weather widget that pairs hyperlocal, real-time weather with stylized landmark art.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Repo size](https://img.shields.io/github/repo-size/bevinkatti/WeatherCanvas)](https://github.com/bevinkatti/WeatherCanvas) ![Made for Windows](https://img.shields.io/badge/platform-Windows-lightgrey)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Repo size](https://img.shields.io/github/repo-size/bevinkatti/WeatherCanvas)](https://github.com/bevinkatti/WeatherCanvas) ![Made for Windows](https://img.shields.io/badge/platform-Windows-blue)
 
 Demo
 - Animated demo GIF placeholder:  
