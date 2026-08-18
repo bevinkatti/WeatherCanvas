@@ -121,29 +121,5 @@ Troubleshooting & FAQ
 - SVG looks clipped or too large:
   - Check viewBox and width/height attributes. The inline injector will add `.landmark-svg` class for styling.
 
-Security & privacy
-- The app uses OpenWeatherMap. No API keys are committed — keep keys out of repo.
-- Consider exposing a small proxy in Tauri if you need to hide keys from distributed builds (or use per-user keys).
-
 License
 - MIT License — see LICENSE (Copyright © 2026 Abhishek bevinkatti)
-
-Credits & authors
-- Main author: Abhishek bevinkatti
-- Co-author / helper: GitHub Copilot (Co-authored-by: GitHub Copilot <copilot@github.com>)  
-  (Thanks to contributors and artists who will help refine the landmark packs.)
-
-Contact & community
-- Repo: https://github.com/bevinkatti/WeatherCanvas
-- Open an issue to report bugs or propose features.
-- Consider a Discussions/Discord space for artists & contributors (planned).
-
-Showcase & marketing
-- Add a high-quality demo GIF in `assets/` and update the README header.
-- Create a small landing screenshot gallery in `.github/` or `docs/` and link to it in the README.
-
-Want me to
-- Create a polished README hero image + demo GIF from the current placeholders, or
-- Add a GitHub Actions workflow that builds the app on every PR and creates an artifact?
-
-Pick one and I’ll add it next.
