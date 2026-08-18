@@ -7,7 +7,6 @@ Transform your Windows desktop into a living, breathing canvas — a lightweight
 Demo
 - Animated demo GIF placeholder:  
   ![demo](assets/demo.gif)  
-  (Replace `assets/demo.gif` with a high-quality demo in the repo for best presentation.)
 
 Why Weather Canvas?
 - Minimal and fast: Tauri + Vite keeps the app lightweight.
