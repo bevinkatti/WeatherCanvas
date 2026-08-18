@@ -1,0 +1,84 @@
+{
+  "cities": {
+    "Paris": {
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "timezone": "Europe/Paris",
+      "landmark": "Eiffel Tower",
+      "asset": "assets/landmarks/paris_eiffel.svg",
+      "premium": false
+    },
+    "Tokyo": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "timezone": "Asia/Tokyo",
+      "landmark": "Mount Fuji",
+      "asset": "assets/landmarks/tokyo_fuji.svg",
+      "premium": false
+    },
+    "New York": {
+      "lat": 40.7128,
+      "lon": -74.0060,
+      "timezone": "America/New_York",
+      "landmark": "Statue of Liberty",
+      "asset": "assets/landmarks/nyc_statue.svg",
+      "premium": false
+    },
+    "London": {
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "timezone": "Europe/London",
+      "landmark": "Big Ben",
+      "asset": "assets/landmarks/london_bigben.svg",
+      "premium": false
+    },
+    "Sydney": {
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "timezone": "Australia/Sydney",
+      "landmark": "Opera House",
+      "asset": "assets/landmarks/sydney_opera.svg",
+      "premium": false
+    },
+    "Rome": {
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "timezone": "Europe/Rome",
+      "landmark": "Colosseum",
+      "asset": "assets/landmarks/rome_colosseum.svg",
+      "premium": false
+    },
+    "Cairo": {
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "timezone": "Africa/Cairo",
+      "landmark": "Pyramids",
+      "asset": "assets/landmarks/cairo_pyramids.svg",
+      "premium": false
+    },
+    "Rio": {
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "timezone": "America/Sao_Paulo",
+      "landmark": "Christ the Redeemer",
+      "asset": "assets/landmarks/rio_christ.svg",
+      "premium": false
+    },
+    "Beijing": {
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "timezone": "Asia/Shanghai",
+      "landmark": "Temple of Heaven",
+      "asset": "assets/landmarks/beijing_temple.svg",
+      "premium": false
+    },
+    "Toronto": {
+      "lat": 43.6532,
+      "lon": -79.3832,
+      "timezone": "America/Toronto",
+      "landmark": "CN Tower",
+      "asset": "assets/landmarks/toronto_cntower.svg",
+      "premium": false
+    }
+  }
+}

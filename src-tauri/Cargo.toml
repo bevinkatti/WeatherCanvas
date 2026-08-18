@@ -1,0 +1,8 @@
+[package]
+name = "aesthetic-weather-tauri"
+version = "0.1.0"
+authors = ["Abhishek bevinkatti"]
+edition = "2021"
+
+[dependencies]
+tauri = { version = "2", features = ["api-all"] }

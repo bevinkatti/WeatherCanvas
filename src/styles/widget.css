@@ -1,0 +1,84 @@
+ :root {
+  --widget-width: 320px;
+  --widget-height: 480px;
+  --bg: rgba(0,0,0,0.0);
+  --accent: rgba(255,255,255,0.95);
+  --muted: rgba(255,255,255,0.7);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.widget {
+  width: var(--widget-width);
+  height: var(--widget-height);
+  position: relative;
+  color: var(--accent);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  pointer-events: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  backdrop-filter: blur(6px);
+}
+
+select {
+  background: rgba(0,0,0,0.4);
+  color: var(--accent);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.landmark {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 48px;
+  bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.landmark-img, .landmark-svg {
+  max-width: 90%;
+  max-height: 100%;
+  opacity: 0.95;
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,0.6));
+}
+
+.info {
+  position: absolute;
+  bottom: 18px;
+  left: 12px;
+  color: var(--accent);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.time {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.temp {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* overlay canvas sits on top */
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}

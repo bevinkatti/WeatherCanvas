@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <rect width="100%" height="100%" fill="#fff0" />
+  <g fill="#222">
+    <circle cx="40" cy="60" r="18" />
+    <rect x="70" y="30" width="40" height="60" rx="6" />
+    <path d="M120 90 L160 60 L140 40 L120 60 Z" fill="#333" />
+  </g>
+  <text x="100" y="110" font-size="12" text-anchor="middle" fill="#fff">New York - Statue</text>
+</svg>
